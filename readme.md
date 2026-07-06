@@ -9,6 +9,11 @@ A RESTful API built with FastAPI for managing users and expenses.
 - SQLite database
 - SQLAlchemy ORM
 - Pydantic validation
+- Jwt Authentication.
+- Role based access.
+- Pagination
+- Filteration
+- Sort
 
 ## Tech Stack
 
@@ -16,6 +21,8 @@ A RESTful API built with FastAPI for managing users and expenses.
 - SQLAlchemy
 - SQLite
 - Pydantic
+- jose
+- bcrypt
 
 ## Run Locally
 

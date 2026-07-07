@@ -1,6 +1,8 @@
 from jose import jwt
+from dotenv import load_dotenv
+import os
 import bcrypt
-secret_key = "123456"
+secret_key = os.getenv("Secret_key")
 def create_token(id:int):
     data = {
         "user_id":id

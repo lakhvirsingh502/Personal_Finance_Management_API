@@ -21,7 +21,11 @@ A RESTful API built with FastAPI for managing users and expenses.
 - SQLAlchemy
 - SQLite
 - Pydantic
+
 - jose
+=======
+- jwt
+
 - bcrypt
 
 ## Run Locally

@@ -1,6 +1,7 @@
 from fastapi import APIRouter,FastAPI
 from routers import auth,admin,expense,user
-import models
+from models.init import User, Expense,Base,engine
+Base.metadata.create_all(bind=engine)
 
 
 

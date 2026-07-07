@@ -1,5 +1,7 @@
 from fastapi import APIRouter,FastAPI
 from routers import auth,admin,expense,user
+import models
+
 
 
 
